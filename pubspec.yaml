@@ -1,0 +1,45 @@
+name: kan_bagisi_app
+description: "Kan Bağışı & Gönüllü Eşleştirme Uygulaması"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase paketleri
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.2.3
+  cloud_firestore: ^5.4.4
+  firebase_messaging: ^15.1.3
+  shared_preferences: ^2.2.3
+  collection: ^1.18.0
+  # Konum ve harita
+  geolocator: ^13.0.2
+  google_maps_flutter: ^2.7.0
+  geocoding: ^2.2.1
+
+  # Bildirimler
+  flutter_local_notifications: ^17.2.1
+
+  # HTTP istekleri
+  http: ^1.2.2
+
+  # Yardımcı paketler
+  url_launcher: ^6.3.1
+  intl: ^0.19.0
+
+  # iOS ikonları
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true

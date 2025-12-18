@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "857770295247",
+    "project_id": "kanbagisiapp-90ce0",
+    "storage_bucket": "kanbagisiapp-90ce0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857770295247:android:27300aa52e58b7216f5cba",
+        "android_client_info": {
+          "package_name": "com.example.kan_bagisi_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEtOIwjM8k7hK8060Jb4Fvb8vR6Zv6E2E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
