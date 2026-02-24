@@ -1,16 +1,60 @@
-# kan_bagisi_app
+<h1 align="center">🩸 Kan Bağışı Uygulaması (Blood Donation App)</h1>
 
-A new Flutter project.
+<p align="center">
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
+  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart" />
+  <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android" />
+  <img src="https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white" alt="iOS" />
+</p>
 
-## Getting Started
+<p align="center">
+  <strong>Kan bağışçıları ile kan ihtiyacı olanları hızlı ve güvenli bir şekilde bir araya getiren mobil uygulama platformu.</strong>
+</p>
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 📱 Proje Hakkında (About The Project)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Kan bağışı, hayat kurtaran en kritik süreçlerden biridir. Bu uygulama, acil kan ihtiyacı olan hastalar ile gönüllü kan bağışçıları arasındaki iletişimi hızlandırmak ve kolaylaştırmak amacıyla geliştirilmiştir. Modern ve kullanıcı dostu arayüzü sayesinde, kullanıcılar saniyeler içinde kan talebi oluşturabilir veya çevrelerindeki kan anonslarını görüntüleyebilir.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+*(Buraya uygulamanın yan yana duran 2-3 tane ekran görüntüsünü eklersen harika olur. Eklemek için görselleri README düzenleme ekranına sürükleyip bırakman yeterli!)*
+---
+
+## ✨ Temel Özellikler (Key Features)
+
+- 🔐 **Kullanıcı Doğrulama:** Güvenli kayıt ve giriş işlemleri.
+- 🩸 **Bağışçı Profili:** Kan grubu ve iletişim bilgilerini içeren özelleştirilebilir kullanıcı profilleri.
+- 🚨 **Acil Kan Talebi Oluşturma:** Kan grubuna ve hastane konumuna göre hızlı ilan açabilme.
+- 📍 **Konum Tabanlı Arama:** Kullanıcıların çevrelerindeki aktif kan taleplerini görebilmesi.
+- 🔔 **Gerçek Zamanlı Bildirimler:** İhtiyaç anında uygun kan grubundaki bağışçılara anında bildirim gönderimi.
+
+---
+
+## 🛠️ Kullanılan Teknolojiler (Tech Stack)
+
+- **Frontend:** Flutter, Dart
+- **Backend / Veritabanı:** Firebase (Authentication, Cloud Firestore) *(Not: Eğer farklı bir backend kullandıysan burayı güncelleyebilirsin)*
+- **Harita & Konum:** Google Maps API / Geolocation
+- **Durum Yönetimi (State Management):** Provider / Riverpod / GetX *(Kullandığını bırak, diğerlerini sil)*
+
+---
+
+## 🚀 Kurulum (Getting Started)
+
+Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyebilirsiniz.
+
+### Ön Koşullar
+- [Flutter SDK](https://docs.flutter.dev/get-started/install) bilgisayarınızda kurulu olmalıdır.
+- Tercihen Android Studio veya VS Code.
+
+### Kurulum Adımları
+
+1. Repoyu bilgisayarınıza klonlayın:
+   ```bash
+   git clone [https://github.com/alpereee/kan_bagisi_app.git](https://github.com/alpereee/kan_bagisi_app.git)
+   --çalıştırma adımları --
+    cd kan_bagisi_app
+    flutter pub get
+    flutter run
+   Mümkün olduğunca çok hayat kurtarması dileğiyle! ❤️
+   
